@@ -63,6 +63,8 @@ img{
 
 body{
     background-color:  rgb(207, 232, 255);
+    height:100%;
+    width: 100%;
 }
 
 a :hover{
