@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <script src="contact.js" defer></script>
+        <link rel="stylesheet" href="style_contact.css">
+        <link rel="import" href="Portofolio_A_Propos.html">
+        <link rel="import" href="Portofolio_Acceuil.html">
+        <link rel="import" href="Portofolio_Compétences.html">
+        <link rel="import" href="Portofolio_Projets.html">
+        <title>Contact</title>
+    </head>
+    <body>
+        <header>
+            <fieldset>
+                <h4>OUEDRAOGO Toundasida Alex Roméo</h4>
+                <nav>
+                    <ul id="page_a_propos">
+                        <a href="Portofolio_Acceuil.html"><li>Acceuil</li></a>
+                        <a href="Portofolio_A_Propos.html"><li>A_Propos</li></a>
+                        <a href="Portofolio_Projets.html"><li>Projets</li></a>
+                        <a href="Portofolio_Compétences.html"><li>Compétences</li></a>
+                        <a href="#"><li>Contact</li></a>
+                    </ul>
+                </nav>
+            </fieldset>
+        </header>
+        <h1>Contact</h1>
+        <h4 class="ref">Pour discuter de vos projets ou de probables collaborations, n'hésitez pas à me contacter. Je suis disponible pour répondre à vos questions et vous aider à concrétiser vos idées. </h4>
+        <hr class="hr">
+        <fieldset id="contact">
+            <a href="https://google.com/maps?q=UNIVERSITE AUBE NOUVELLE BOBO" target="_blank"><img class="image_1" src="location_icon.png" alt=""></a>
+            <h4 id="suite">Adresse</h4>
+            <a href="https://google.com/maps?q=UNIVERSITE AUBE NOUVELLE BOBO" target="_blank"><input class="rediger" type="button" value="Localisation"></a><hr class="lig">
+            <a href="tel:+22607715758"><img class="image_2" src="phone_icon.png" alt=""></a>
+            <h4 id="suite">Contactez-moi </h4>
+            <a href="tel:+22607715758"><input class="rediger" type="button" value="Appeler"></a><hr class="lig">
+            <a href="mailto:ouedraogoalex001@gmail.com"><img class="image_3" src="enveloppe_icon.png" alt=""></a>
+            <h4 id="suite">Envoyez-moi un E-mail</h4>
+            <a href="mailto:ouedraogoalex001@gmail.com"><input class="rediger" type="button" value="Rediger"></a>
+        </fieldset>
+        <fieldset id="contacter">
+            <form onsubmit="envoimail(event)">
+                <label for="" >Votre Nom</label><br>
+                <input type="text" placeholder="Nom" name="" id="in_nom" required><br><hr class="lig"><br>
+                <label for="">Votre(Vos) Prénom(s)</label><br>
+                <input type="text" placeholder="Prénom(s)" name="" id="in_prenom" required><br><hr class="lig"><br>
+                <label for="" >Votre Mail</label><br>
+                <input type="email" placeholder="e-mail@gmail.com" name="" id="in_mail" required><br><hr class="lig"><br>
+                <label for="">Sujet</label><br>
+                <input type="text" placeholder="Vos préoccupations" name="" id="in_sujet" required><br><hr class="lig"><br>
+                <label for="">Message</label><br>
+                <textarea name="" id="" cols="60" rows="10" placeholder="Entrez votre message" required></textarea><br><br><br><br>
+                <input class="rediger" type="submit" value="Envoyer">
+            </form>
+        </fieldset>
+        <footer>
+            <fieldset>
+                <h4>designed by Lucius with HTML and CSS</h4>
+                <p id="op">Tous droits réservés 2025</p>
+            </fieldset>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,311 @@
+li{
+    list-style-type: none;
+    float: left;
+    width: 2%;
+    margin-left: 230px;
+    margin-right: -50px;
+    margin-top: 40px;
+    color: aliceblue;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+}
+fieldset{
+    background-color: slategray;
+    height: 170px;
+    width: 1215px;
+}
+h4{
+    color: aliceblue;
+}
+h1{
+    margin-top: 60px;
+    text-align: center;
+    color: blue;
+}
+.hr{
+    width: 75%;
+    height: 3px;
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+body{
+    background-color:  rgb(207, 232, 255);
+}
+.ref{
+    color: black;
+    font-weight: lighter;
+    font-style: italic;
+    text-align: center;
+}
+#contact{
+    background-color: rgb(206, 227, 235);
+    margin-bottom: 8%;
+    box-sizing: content-box;
+    height: 350px;
+    width: 45%;
+    margin-left:27.5% ;
+    box-shadow: rgb(243, 236, 236);
+    box-shadow: 2px 2px 5px;
+    border-style: double;
+}
+#suite{
+    color: black;
+    margin-left: 15%;
+    margin-top: -10px;
+}
+#suit{
+    margin-left: 15%;
+    margin-top: -20px;
+    text-decoration: none;
+}
+
+#sui{
+    background-color: black;
+}
+
+.rediger{
+    width: 95px;
+    height: 40px;
+    background-color: rgb(96, 19, 240);
+    border-radius: 20px;
+    margin-left: 16%;
+    margin-top: -20px;
+    margin-bottom: 10px;
+    font-family: serif;
+    box-shadow: 2px 2px 4px rgb(72, 75, 77);;
+    color: rgb(245, 247, 249);
+    font-size: medium;
+}
+.rediger:hover{
+    color: rgb(255, 255, 255);
+    scale: (1,3);
+    background-color: rgb(35, 5, 112);
+    box-shadow: 3px 3px 5px rgb(3, 3, 8);
+}
+
+.image_1{
+    height: 30px;
+    margin-left: 0%;
+    position: relative;
+    right: -40px;
+    top: 20px;
+}
+
+.image_2{
+height: 30px;
+margin-left: 0%;
+position: relative;
+right: -40px;
+top: 19px;
+}
+
+.image_3{
+height: 30px;
+margin-left: 0%;
+position: relative;
+right: -40px;
+top: 19px;
+}
+
+.lig{
+    width: 85%;
+    height: 3px;
+    margin-top: 10px;
+    margin-bottom: -5px;
+}
+#contacter{
+    background-color: rgb(206, 227, 235);;
+    margin-bottom: 7.5%;
+    box-sizing: content-box;
+    height: 100%;
+    width: 45%;
+    margin-left:27.5% ;
+    box-shadow: rgb(243, 236, 236);
+    box-shadow: 2px 2px 5px;
+    border-style: double;
+    border-radius: 10px;
+}
+
+button:hover{
+    opacity: 90%;
+    transition: 1s ;
+    background-color: rgb(9, 9, 189);
+    color: silver;
+    box-shadow:  4px 4px 5px rgba(0, 0, 0, 0.734);
+    outline: none;
+    scale: 1.09;
+}
+
+form {
+    width: 470px;
+    margin: 20px auto; 
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.336);
+    background-color: rgb(226, 240, 245);
+}
+
+label {
+    display: flex;
+    font-weight: bold;
+}
+input {
+    width: 100%; 
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.rediger:hover{
+    opacity: 90%;
+    transition:0.7s ease-out ;
+    color: rgb(221, 221, 240);
+    outline: none;
+    text-shadow: 7px 4px 8px white;
+    scale: 1.1;
+}
+
+input:focus {
+    border-color: #007BFF;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+textarea:focus {
+    border-color: #007BFF;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+a :hover{
+    opacity: 90%;
+    transition:0.7s ease-out ;
+    color: rgb(9, 9, 189);
+    outline: none;
+    text-shadow: 7px 4px 8px white;
+    scale: 1.5;
+}
+#op{
+    color: aliceblue;
+}
+
+@media(max-width: 768px){
+
+    body{
+        width: 100%;
+        height: 100%;
+        background-color: rgb(207, 232, 255);
+
+    }
+    fieldset{
+        width: 100%;
+        height: auto;
+        background-color: slategray;
+    }
+    li{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 15px;
+        margin-inline-start: 30px;
+        margin-right: 45px;
+        margin-bottom: 20px;
+        font-weight: 900px;
+    }
+
+    h4{
+        margin-left: 20px;
+    }
+    a :hover{
+        opacity: 90%;
+        transition:0.7s ease-out ;
+        color: rgb(9, 9, 189);
+        outline: none;
+        text-shadow: 7px 4px 8px white;
+        scale: 1.5;
+    }
+
+    #contacter{
+        background-color: rgb(196, 222, 232);
+        margin-bottom: 7.5%;
+        box-sizing: content-box;
+        height: 100%;
+        width: 80%;
+        margin-left:10% ;
+        box-shadow: rgb(243, 236, 236);
+        box-shadow: 2px 2px 5px;
+        border-style: double;
+        border-radius: 10px;
+    }
+    
+    form{
+        width: 75%;
+        border: 1px solid #ccc;
+        margin-left: 7.5%;
+        border-radius: 10px;
+        box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.336);
+        background-color: rgb(210, 233, 243);
+    }
+
+    #contact{
+        background-color: rgb(196, 222, 232);
+        margin-bottom: 8%;
+        box-sizing: content-box;
+        height: 350px;
+        width: 45%;
+        margin-left:25% ;
+        box-shadow: rgb(243, 236, 236);
+        box-shadow: 2px 2px 5px;
+        border-style: double;
+    }
+    .image_1{
+        height: 25px;
+        margin-left: 0%;
+        position: relative;
+        right: -2px;
+        top: 15px;
+    }
+    .image_2{
+        height: 25px;
+        margin-left: 0%;
+        position: relative;
+        right: -2px;
+        top: 15px;
+    }
+    .image_3{
+        height: 25px;
+        margin-left: 0%;
+        position: relative;
+        right: -2px;
+        top: 15px;
+    }
+    .rediger{
+        width: 95px;
+        height: 40px;
+        background-color: rgb(96, 19, 240);
+        border-radius: 20px;
+        margin-left: 4%;
+        margin-top: -20px;
+        margin-bottom: 10px;
+        font-family: serif;
+        box-shadow: 2px 2px 4px rgb(72, 75, 77);;
+        color: rgb(206, 227, 235);
+        font-size: medium;
+    }
+
+    .rediger:hover{
+        opacity: 90%;
+        transition:0.7s ease-out ;
+        color: rgb(221, 221, 240);
+        outline: none;
+        text-shadow: 7px 4px 8px white;
+        scale: 1.1;
+    }
+
+    textarea{
+        width: 90%;
+        margin-left: 10px;
+    }
+}

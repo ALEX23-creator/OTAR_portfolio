@@ -1,0 +1,192 @@
+li{
+    list-style-type: none;
+    float: left;
+    width: 2%;
+    margin-left: 230px;
+    margin-right: -50px;
+    margin-top: 40px;
+    color: aliceblue;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+}
+a :hover{
+    opacity: 90%;
+    transition:0.7s ease-out ;
+    color: rgb(9, 9, 189);
+    outline: none;
+    text-shadow: 7px 4px 8px white;
+    scale: 1.5;
+}
+fieldset{
+    background-color: slategray;
+    height: 170px;
+    width: 100%;
+}
+h4{
+    color: aliceblue;
+}
+h1{
+    margin-top: 60px;
+    text-align: center;
+    color: blue;
+}
+hr{
+    width: 75%;
+    height: 3px;
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+body{
+    background-color: rgb(207, 232, 255);
+}
+p{
+    color: aliceblue;
+}
+#prjt{
+    background-color:  rgb(206, 227, 235);
+    width: 33%;
+    height: fit-content;
+    border-radius: 75px;
+    box-sizing: content-box;
+    box-shadow: inset;
+    border-color: darkgray;
+    align-content: center;
+    margin-left: 33%;
+    margin-bottom: 8%;
+}
+
+h3{
+    color: black;
+    text-align: center;
+    font-style: oblique;
+    font-weight: 3500;
+}
+.unique{
+    margin-top: -46px;
+    margin-left: 155px;
+    text-align: center;
+    color: blue;
+    font-style: oblique;
+    font-size: large;
+}
+p{
+    color: rgb(3, 3, 15);
+    margin-left: 45px;
+    font-style: italic;
+    font-weight: bold;
+    font-size: x-large;
+}
+button{
+    background-color: rgb(226, 240, 245);
+    align-content: center;
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    margin-left: 40%;
+    box-shadow: inset;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    border-color: darkgrey;
+    cursor:pointer;
+    color: royalblue;
+}
+button:hover{
+    opacity: 90%;
+    transition: 1s ;
+    background-color: rgb(9, 9, 189);
+    color: silver;
+    box-shadow:  4px 4px 5px rgba(0, 0, 0, 0.734);
+    outline: none;
+    scale: 1.09;
+}
+.foot{
+    color: aliceblue;
+}
+
+@media(max-width: 768px){
+
+    body{
+        width: 100%;
+        height: 100%;
+    }
+    fieldset{
+        width: 100%;
+        height: auto;
+        background-color: slategray;
+    }
+    li{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 15px;
+        margin-inline-start: 30px;
+        margin-right: 45px;
+        margin-bottom: 20px;
+        font-weight: 900px;
+    }
+
+    h4{
+        margin-left: 20px;
+    }
+    a :hover{
+        opacity: 90%;
+        transition:0.7s ease-out ;
+        color: rgb(9, 9, 189);
+        outline: none;
+        text-shadow: 7px 4px 8px white;
+        scale: 1.5;
+    }
+
+    button{
+        background-color: rgb(226, 240, 245);
+        align-content: center;
+        width: 100px;
+        height: 40px;
+        border-radius: 20px;
+        margin-left: 40%;
+        box-shadow: inset;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bolder;
+        border-color: darkgrey;
+        cursor: pointer;
+        color: royalblue;
+    }
+
+    button:hover{
+        opacity: 90%;
+        transition: 1s ;
+        background-color: rgb(9, 9, 189);
+        color: silver;
+        box-shadow:  4px 4px 5px rgba(0, 0, 0, 0.734);
+        outline: none;
+        scale: 1.09;
+    }
+
+    body{
+        background-color: rgb(207, 232, 255);
+    }
+    #prjt{
+        background-color: rgb(194, 225, 236);
+        margin-left: 20%;
+        width: 55%;
+    }
+
+    .unique{
+        margin-top: -45x;
+    }
+
+    p{
+        color: rgb(3, 3, 15);
+        margin-left: 5px;
+        font-family: cursive;
+        font-style: italic;
+        font-size: 24px;
+    }
+    .foot{
+        font-size: medium;
+        color: aliceblue;
+    }
+    h3{
+        font-family: cursive;
+    }
+}

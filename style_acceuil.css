@@ -1,0 +1,150 @@
+li{
+    list-style-type: none;
+    float: left;
+    width: 2%;
+    margin-left: 230px;
+    margin-right: -50px;
+    margin-top: 40px;
+    color: whitesmoke;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif
+}
+h4{
+    color: aliceblue;
+}
+fieldset{
+    background-color: slategray;
+    width: 100%;
+    height: 150px;
+}
+h1{
+    text-align: center;
+    color: blue;
+    margin-top: 60px;
+}
+hr{
+    width: 75%;
+    height: 3px;
+    margin-top: 40px;
+}
+button{
+    width: 145px;
+    height: 50px;
+    background-color: blue;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+    box-shadow:  4px 4px 5px rgba(0, 0, 0, 0.402);
+    margin-left: 45%;
+    margin-top: 80px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+img{
+    width: 45%;
+    height: 275px;
+    margin-left: 100px;
+    margin-right: 75px;
+    margin-bottom: 20px;
+    margin-top: 35px;
+    border-radius: 10px;
+}
+details{
+    text-align: center;
+    margin-top: 75px;
+    font-weight: bold;
+    font-size: large;
+    color: rgb(32, 30, 30);
+}
+
+summary{
+    color: crimson;
+}
+
+.desc{
+    color: black;
+}
+
+button:hover{
+    opacity: 90%;
+    transition: 1s ;
+    background-color: rgb(9, 9, 189);
+    color: silver;
+    box-shadow:  4px 4px 5px rgba(0, 0, 0, 0.734);
+    outline: none;
+    scale: 1.09;
+}
+p{
+    color: aliceblue;
+}
+body{
+    background-color: rgb(207, 232, 255);
+}
+
+a :hover{
+    opacity: 90%;
+    transition:0.7s ease-out ;
+    color: rgb(9, 9, 189);
+    outline: none;
+    text-shadow: 7px 4px 8px white;
+    scale: 1.5;
+}
+
+@media(max-width: 768px){
+
+    body{
+        width: 100%;
+        height: 100%;
+    }
+    fieldset{
+        width: 100%;
+        height: auto;
+        background-color: slategray;
+    }
+    li{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 15px;
+        margin-inline-start: 30px;
+        margin-right: 45px;
+        margin-bottom: 20px;
+        font-weight: 900px;
+    }
+
+    h4{
+        margin-left: 20px;
+    }
+
+    button{
+        margin-left: 40%;
+        font-size: medium;
+        height: 45px;
+        width: 125px;
+        border-radius: 5px;
+        border: 1.5px 1.5px  black;
+        box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.402);
+    }
+
+    a :hover{
+        opacity: 90%;
+        transition:0.7s ease-out ;
+        color: rgb(9, 9, 189);
+        outline: none;
+        text-shadow: 7px 4px 8px white;
+        scale: 1.5;
+    }
+
+    body{
+        background-color: rgb(207, 232, 255);
+    }
+    img{
+        width: 45%;
+        height: 175px;
+        margin-left: 100px;
+        margin-right: 75px;
+        margin-bottom: 20px;
+        margin-top: 35px;
+    }
+
+}
