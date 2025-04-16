@@ -104,15 +104,14 @@ a :hover{
         background-color: slategray;
     }
     li{
-        list-style-type: none;
-        float: left;
-        width: 90%;
-        margin-left: -30px;
-        margin-right: -50px;
-        margin-top: 40px;
-        color: whitesmoke;
-        font-size: large;
-        font-family: 'Times New Roman', Times, serif
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 15px;
+        margin-inline-start: 30px;
+        margin-right: 45px;
+        margin-bottom: 20px;
+        font-weight: 900px;
     }
 
     h4{
