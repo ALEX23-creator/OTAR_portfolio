@@ -104,7 +104,7 @@ a :hover{
         background-color: slategray;
     }
     li{
-        display: flex;
+        display: block;
         justify-content: center;
         align-items: center;
         font-size: 15px;
