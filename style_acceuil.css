@@ -100,7 +100,7 @@ a :hover{
     }
     fieldset{
         width: 100%;
-        height: auto;
+        height: 200px;
         background-color: slategray;
     }
     li{
